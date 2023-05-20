@@ -27,7 +27,7 @@ B. LAPORAN
    4. LAP. PENGGUNA
    5. LAP. DISTRIBUTOR
 
-# Contoh Tampilan 
+## Contoh Tampilan 
 
 * Login Aplikasi
 ![Foto Login Aplikasi](tampilan/login.png "Login Aplikasi")
