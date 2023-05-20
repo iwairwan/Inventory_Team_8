@@ -28,14 +28,16 @@ B. LAPORAN
    5. LAP. DISTRIBUTOR
 
 ## Contoh Tampilan 
-* Dashboard
+
+* Login Aplikasi
 ![Foto Login](tampilan/login.png "Login Aplikasi")
-* Transaksi Pembelian Barang
-![Foto Transaksi Pembelian Barang](tampilan/home.png "Menu Utama")
-* Transaksi Penjualan Barang
-![Foto Transaksi Penjualan Barang](tampilan/submenumaster.png "Data Master")
-* Laporan Keuangan
-![Foto Laporan Keuangan](tampilan/submenulaporan.png "Menu Lapoaran")
+* Menu Utama
+![Foto Menu Utama](tampilan/home.png "Menu Utama")
+* Sub Menu Data Master
+![Foto Sub Menu Master](tampilan/submenumaster.png "Data Master")
+* Sub Menu Laporan
+![Foto Sub Menu Laporan](tampilan/submenulaporan.png "Menu Lapoaran")
+
 
 Change log Issue:
 - Menu Laporan Pengguna blm rampung, msh dlm proses
