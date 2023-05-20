@@ -10,7 +10,7 @@ ANNGOTA KELOMPOK :
 5. Irwandi - 202243570047
 6. Fajri - 202243579091
 
-FITUR :
+#FITUR :
 
 A. MASTER
    1. BARANG
@@ -37,8 +37,5 @@ TO DO :
 - Stokopname Barang
 - Laporan Retur Barang
 - Laporan Stokopname Barang
--  
 
 
-
-** Jika ada issues atau revisi atau menambahkan fitur silahkan pull request di repository ini 
