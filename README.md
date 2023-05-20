@@ -30,6 +30,7 @@ B. LAPORAN
 ## Contoh Tampilan 
 
 * Login Aplikasi
+
 ![Foto Login Aplikasi](tampilan/login.png "Login Aplikasi")
 * Menu Utama
 ![Foto Menu Utama](tampilan/home.png "Menu Utama")
