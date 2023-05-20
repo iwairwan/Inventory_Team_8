@@ -3,12 +3,12 @@
 SISTEM INFORMASI INVENTORY TOKO BANGUNAN BERBASIS JAVA
 
 ANNGOTA KELOMPOK :
-1. Ekky Abi Pratama - 202143570055
-2. Lukman Asfrika - 202143570048
-3. Intan Rachmawati Sinaga - 202143579087
-4. Isa Maulana Danang A - 202143579021
-5. Irwandi - 202243570047
-6. Fajri - 202243579091
+1. Ekky Abi Pratama
+2. Lukman Asfrika
+3. Intan Rachmawati Sinaga
+4. Isa Maulana Danang A
+5. Irwandi
+6. Fajri
 
 # FITUR :
 
@@ -32,7 +32,7 @@ Change log Issue:
 - Menu Laporan Pengguna blm rampung, msh dlm proses
 - Menu Laporan Distribur blm rampung, msh dlm proses
 
-TO DO :
+# TO DO :
 - Retur Barang
 - Stokopname Barang
 - Laporan Retur Barang
