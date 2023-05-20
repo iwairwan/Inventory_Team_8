@@ -10,7 +10,7 @@ ANNGOTA KELOMPOK :
 5. Irwandi
 6. Fajri
 
-# FITUR :
+## FITUR :
 
 A. MASTER
    1. BARANG
