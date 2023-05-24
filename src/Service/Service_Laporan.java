@@ -25,6 +25,10 @@ public interface Service_Laporan {
     
     void lapDataBarang                      (JPanel jp);
     void lapTransaksiStokBarang             (JPanel jp);
+
+    void lapDataPengguna                    (JPanel jp);
+    void lapDataDistributor                 (JPanel jp);
+    
     
     
 }

@@ -308,6 +308,44 @@ public class DAO_Laporan implements Service_Laporan{
     }
 
     @Override
+    public void lapDataPengguna(JPanel jp) {
+        String file = "src/Report/LapDataPengguna.jasper";
+        try{
+            InputStream Report;
+            Report = getClass().getResourceAsStream(file);
+            HashMap parameter = new HashMap();
+            //parameter.put("no", no);
+            JasperPrint print = JasperFillManager.fillReport(file, parameter, connection);
+            //tampil panel
+            jp.setLayout(new BorderLayout());
+            jp.repaint();
+            jp.add(new JRViewer(print));
+            jp.revalidate();
+        }catch(Exception e){
+            JOptionPane.showConfirmDialog(null, e.getMessage());
+        }
+    }    
+
+    @Override
+    public void lapDataDistributor(JPanel jp) {
+        String file = "src/Report/LapDataDistributor.jasper";
+        try{
+            InputStream Report;
+            Report = getClass().getResourceAsStream(file);
+            HashMap parameter = new HashMap();
+            //parameter.put("no", no);
+            JasperPrint print = JasperFillManager.fillReport(file, parameter, connection);
+            //tampil panel
+            jp.setLayout(new BorderLayout());
+            jp.repaint();
+            jp.add(new JRViewer(print));
+            jp.revalidate();
+        }catch(Exception e){
+            JOptionPane.showConfirmDialog(null, e.getMessage());
+        }
+    }     
+    
+    @Override
     public void lapTransaksiStokBarang(JPanel jp) {
         String file = "src/Report/LapStokBarang.jasper";
         try{

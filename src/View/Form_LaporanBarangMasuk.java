@@ -336,7 +336,7 @@ public class Form_LaporanBarangMasuk extends javax.swing.JPanel {
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, cetak_periodeLayout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(bt_cetak2, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(12, Short.MAX_VALUE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
         jLabel3.setFont(new java.awt.Font("Century Gothic", 0, 14)); // NOI18N
@@ -428,7 +428,7 @@ public class Form_LaporanBarangMasuk extends javax.swing.JPanel {
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, cetak_perbulanLayout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(bt_cetak3, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(12, Short.MAX_VALUE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
         jLabel5.setFont(new java.awt.Font("Century Gothic", 0, 14)); // NOI18N
@@ -524,7 +524,7 @@ public class Form_LaporanBarangMasuk extends javax.swing.JPanel {
         );
 
         t_dis.setFont(new java.awt.Font("Century Gothic", 0, 14)); // NOI18N
-        t_dis.setText("     Distributor");
+        t_dis.setText("");
 
         brw_distributor.setText("...");
         brw_distributor.addActionListener(new java.awt.event.ActionListener() {

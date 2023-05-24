@@ -17,6 +17,8 @@ import View.Form_Home;
 import View.Form_LaporanBarangKeluar;
 import View.Form_LaporanBarangMasuk;
 import View.Form_LaporanDataBarang;
+import View.Form_LaporanDataPengguna;
+import View.Form_LaporanDataDistributor;
 import View.Form_LaporanPemesanan;
 import View.Form_Login;
 import View.Form_Pemesanan;
@@ -504,13 +506,13 @@ public class Menu_Utama extends javax.swing.JFrame {
 
 
 
-        //  start modive by: irwan ==> Laporan Retur Barang
+        //  start modive by: irwan ==> Laporan Pengguna
         MenuItem lapPengguna = new MenuItem(null, true, iconSubMenuPgn, "Lap. Pengguna", new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
                 jPanel2.removeAll();
                 String Id = lb_id.getText();
-                jPanel2.add(new Form_BarangKeluar3(Id));
+                jPanel2.add(new Form_LaporanDataPengguna(Id));
                 jPanel2.repaint();
                 jPanel2.revalidate();
             }
@@ -522,7 +524,7 @@ public class Menu_Utama extends javax.swing.JFrame {
             public void actionPerformed(ActionEvent e) {
                 jPanel2.removeAll();
                 String Id = lb_id.getText();
-                jPanel2.add(new Form_BarangKeluar4(Id));
+                jPanel2.add(new Form_LaporanDataDistributor(Id));
                 jPanel2.repaint();
                 jPanel2.revalidate();
             }

@@ -727,7 +727,9 @@
                           <Color blue="ff" green="ff" red="ff" type="rgb"/>
                         </Property>
                         <Property name="horizontalAlignment" type="int" value="0"/>
-                        <Property name="text" type="java.lang.String" value="Distributor"/>
+                        <Property name="text" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                          <Connection code="&quot;Distributor&quot;" type="code"/>
+                        </Property>
                       </Properties>
                     </Component>
                   </SubComponents>
